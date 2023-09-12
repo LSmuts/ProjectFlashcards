@@ -14,7 +14,6 @@ export default function Quiz() {
     return <Navigate to={ROUTES.quizzesRoute()} replace/>
   }
 
-
   return (
     <section>
       <h1>{quiz.name}</h1>
